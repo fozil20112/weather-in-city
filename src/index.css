@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.Search-bar {
+    border: none;
+    outline: none;
+    width: 250px;
+}
+
+.Search-bar::placeholder {
+    font-size: 16px;
+    color: darkblue;
+    opacity: 0.4;
+}
+
+.hg {
+    background-color: orange;
+    margin-top: 50px;
+    width: 450px;
+    height: 300px;
+    margin-left: 650px;
+    text-align: center;
+    padding: 30px;
+}
+
+@media screen and (max-width: 500px) {
+    .hg {
+        width: 90% !important;
+        margin-left: 5% !important;
+    }
+}
